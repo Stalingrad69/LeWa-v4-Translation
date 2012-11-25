@@ -1,8 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!--Decoded by jBART (BurgerZ <az.burgerz@gmail.com)>-->
-<resources>
+<!--Decoded by jBART (BurgerZ <az.burgerz@gmail.com)>--><resources>
+    <string name="config_import_vcard_type">По умолчанию</string>
+    <string name="config_export_vcard_type">По умолчанию</string>
+    <string name="config_export_dir">/mnt/sdcard</string>
+    <string name="config_export_file_prefix" />
+    <string name="config_export_file_suffix" />
+    <string name="config_export_file_extension">vcf</string>
+    <string name="config_export_extensions_to_consider" />
+    <string name="config_prohibited_phone_number_regexp" />
     <string name="launcherDialer">Телефон</string>
     <string name="people">Контакты</string>
+    <string name="t9_default_sort">1</string>
     <string name="t9_sort_title">T9 сортировка</string>
     <string name="t9_sort_summary">Выберите режим сортировки результатов T9</string>
     <string name="t9_sort_name">Сначала сопадение имен</string>
@@ -43,7 +51,7 @@
     <string name="menu_search">Поиск</string>
     <string name="menu_newContact">Новый контакт</string>
     <string name="menu_viewContact">Просмотреть контакт</string>
-    <string name="menu_callNumber">Вызов: %s</string>
+    <string name="menu_callNumber">Вызов : %s</string>
     <string name="menu_addStar">Добавить в избранное</string>
     <string name="menu_removeStar">Удалить из избранных</string>
     <string name="menu_editContact">Изменить контакт</string>
@@ -55,7 +63,7 @@
     <string name="menu_deleteGroup">Удалить</string>
     <string name="menu_new_contact_action_bar">Новый</string>
     <string name="menu_new_group_action_bar">Новая</string>
-    <string name="splitConfirmation_title">Разделить контакты</string>
+    <string name="splitConfirmation_title">Разделить контакты?</string>
     <string name="splitConfirmation">Вы действительно хотите разделить этот контакт на несколько контактов: по одному для каждого набора контактной информации, содержащейся в этом контакте?</string>
     <string name="menu_joinAggregate">Присоединить</string>
     <string name="titleJoinContactDataWith">Объединить контакты</string>
@@ -354,7 +362,7 @@
     <string name="sms_other_fax">Отправить SMS·на номер факса</string>
     <string name="sms_radio">SMS:радиотелефон</string>
     <string name="sms_telex">SMS: телекс</string>
-    <string name="sms_tty_tdd">SMS: телетайп</string>
+    <string name="sms_tty_tdd">SMS телетайп</string>
     <string name="sms_work_mobile">SMS:рабочий моб.</string>
     <string name="sms_work_pager">SMS:рабоч. пейдж.</string>
     <string name="sms_assistant">Отправить текстовое сообщение на номер %s</string>
@@ -418,10 +426,10 @@
     <string name="search_bar_hint">Поиск контактов</string>
     <string name="take_photo">Сфотографировать</string>
     <string name="take_new_photo">Сфотографировать (заново)</string>
-    <string name="pick_photo">Choose photo from Gallery</string>
+    <string name="pick_photo">Выбор фото из Галереи</string>
     <string name="pick_new_photo">Выбрать фото из Галереи</string>
-    <string name="locale_change_in_progress">"Выполняется обновление списка контактов, чтобы изменение языка вступило в силу.</string>
-    <string name="upgrade_in_progress">Contact list is being updated.</string>
+    <string name="locale_change_in_progress">Выполняется обновление списка контактов, чтобы изменение языка вступило в силу.</string>
+    <string name="upgrade_in_progress">Контакт-лист обновляется.</string>
     <string name="upgrade_out_of_memory">"Контакты обновляются. 
 
  Для обновления требуется около %s МБ внутренней памяти телефона.
@@ -596,7 +604,7 @@
     <string name="delete_error">Не удалось удалить контакт в SIM</string>
     <string name="emergencycall">Экстренный вызов</string>
     <string name="imei_invalid">Неверный</string>
-    <string name="call_log_filter_all_resources">All resources</string>
+    <string name="call_log_filter_all_resources">Все ресурсы</string>
     <string name="turn_on_3g_service_message">Служба 3G отключена, включить ее?</string>
     <string name="associate_sim_missing_message">SIM-карта %1$s недоступна. Осуществить вызов через %2$s</string>
     <string name="associate_sim_missing_other">Позвонить</string>
@@ -615,7 +623,7 @@
     <string name="reselect_key">Этой клавише быстрого набора уже назначен номер, выберите другую клавишу.</string>
     <string name="calllog_today">Сегодня</string>
     <string name="calllog_yesterday">Вчера</string>
-    <string name="calllog_beforeyesterday">Before</string>
+    <string name="calllog_beforeyesterday">Ранее</string>
     <string name="menu_association">Привязка SIM-карты</string>
     <string name="menu_remove_association">Снять привязку SIM-карты</string>
     <string name="remove_association_message">Снять привязку SIM-карты к этому номеру?</string>
@@ -643,7 +651,7 @@
     <string name="email_invalid">Невозможно сохранить недопустимый адрес эл. почты</string>
     <string name="email_2g_invalid">Невозможно сохранить сообщение электронной почты на SIM-карте объемом 2 ГБ, выберите для сохранения SIM-карту объемом 3 ГБ.</string>
     <string name="sim_invalid_fix_number">Невозможно сохранить недопустимый номер фиксированного набора.</string>
-    <string name="AirPlane_mode_on_edit">Cannot edit contact when Airplane mode is on.</string>
+    <string name="AirPlane_mode_on_edit">Не удается изменить контакт, когда включен режим полета.</string>
     <string name="msg_loading_sim_contacts_toast">Загрузка SIM-контактов в фоновом режиме, немного подождите.</string>
     <string name="fix_number_too_long">Слишком длинный номер фиксированного набора.</string>
     <string name="name_too_long">Слишком длинное название.</string>
@@ -724,7 +732,7 @@
     <string name="multichoice_no_select_alert">Элемент не выбран.</string>
     <string name="multichoice_delete_confirm_message">Действительно удалить выбранные элементы контакта?</string>
     <string name="multichoice_delete_confirm_title">Удаление элементов контакта?</string>
-    <string name="multichoice_contacts_limit">"Selected contacts can't be more than 5000"</string>
+    <string name="multichoice_contacts_limit">"Выбранных контактов не может быть больше, чем 5000"</string>
     <string name="phone_storage_full_create">Память телефона заполнена, создание нового контакта невозможно.</string>
     <string name="phone_storage_full_edit">Память телефона заполнена, редактирование контакта невозможно.</string>
     <string name="add_SIP_to_sim">Невозможно добавить номер SIP для контакта SIM/USIM.</string>
@@ -745,19 +753,19 @@
     <string name="enable_sip_dialog_message">Интернет-вызовы отключены, включить их?</string>
     <string name="share_contacts_limit">Число контактов для совместного доступа не должно превышать 5000</string>
     <string name="contact_delete_all_tips">В фоновом режиме уже выполняется удаление контакта. Если вы хотите запустить удаление контакта снова, сначала отмените данную операцию.</string>
-    <string name="move">Move</string>
+    <string name="move">Переместить</string>
     <string name="sum_search_networks">Поиск всех доступных сетей</string>
     <string name="deleteCallLogConfirmation_title">Журнал вызовов!</string>
     <string name="call_detail_delete_calllog">Удалить выбранные вызовы?</string>
     <string name="deleteCallLogConfirmation_message">Удалить выбранные вызовы?</string>
     <string name="call_detail_deleteConfirmation_message">В уверенны что хотите удалить выбранные вызовы??</string>
     <string name="file_already_on_sd_card">Файл уже находится на карте памяти.</string>
-    <string name="send_file_sms_error">Cannot share the file with SMS,please use MMS.</string>
-    <string name="error_save_usim_contact_email_lost">Failed to save Email address because the USIM storage for Email is full.</string>
-    <string name="error_import_usim_contact_email_lost" formatted="false">"Failure caused by USIM storage full for Email.
-Completed: %d
-Incompleted: %d"</string>
-    <string name="user_profile_cannot_sd_card">Cannot share the content with this method.</string>
+    <string name="send_file_sms_error">Добававить файл в SMS невозможно,используйте MMS.</string>
+    <string name="error_save_usim_contact_email_lost"> Не удалось сохранить адрес электронной почты, так как USIM хранилище для электронной почты заполнено.</string>
+    <string name="error_import_usim_contact_email_lost" formatted="false">"Отказ вызван переполнением USIM хранилища электронной почты.
+Завершено: %d
+Не выполнено: %d"</string>
+    <string name="user_profile_cannot_sd_card">Не могу поделиться содержимым с помощью этого метода.</string>
     <string name="app_label">Сообщения</string>
     <string name="new_message">Новое сообщение</string>
     <string name="menu_call_back">Вызов: %s</string>
@@ -767,7 +775,7 @@ Incompleted: %d"</string>
     <string name="menu_add_address_to_contacts">Добавить в контакты: %s</string>
     <string name="menu_delete_all">Удалить все цепочки</string>
     <string name="menu_delete">Удалить цепочку</string>
-    <string name="menu_view">View thread</string>
+    <string name="menu_view">Просмотр цепочки</string>
     <string name="menu_debug_dump">ОТЛАДКА ДАМПА</string>
     <string name="refreshing">Обновление...</string>
     <string name="has_draft">Черновик</string>
@@ -897,7 +905,7 @@ Incompleted: %d"</string>
     <string name="pref_summary_notification_vibrateWhen">Вибросигнал при получении уведомления</string>
     <string name="pref_title_notification_ringtone">Звук уведомления</string>
     <string name="pref_messages_to_save">Установить макс. кол-во сообщений в цепочке для хранения</string>
-    <string name="prefDefault_vibrateWhen">never</string>
+    <string name="prefDefault_vibrateWhen">Никогда</string>
     <string name="prefDefault_vibrate_true">всегда</string>
     <string name="prefDefault_vibrate_false">никогда</string>
     <string name="prefDialogTitle_vibrateWhen">Вибросигнал</string>
@@ -1030,7 +1038,7 @@ Incompleted: %d"</string>
     <string name="adding_recipients">Добавление получателей...</string>
     <string name="draft_separator">", "</string>
     <string name="message_count_format"> %1$s</string>
-    <string name="error_state">Inconsistent state</string>
+    <string name="error_state">Ошибочное состояние</string>
     <string name="error_state_text">Цепочки не соответствуют получателям. Сделайте снимок экрана и отправьте сообщение об ошибке через веб-сайт http://go/droidanizer</string>
     <string name="label_mms_push">MMS Push</string>
     <string name="desc_mms_push">Pushes MMS from outbox to the network</string>
@@ -1047,12 +1055,12 @@ Incompleted: %d"</string>
     <string name="delete_unsuccessful">Удаление не выполнено!</string>
     <string name="add_quick_text_successful">Шаблон текста добавлен!</string>
     <string name="already_have_quick_text">Этот шаблон текста уже существует!</string>
-    <string name="more_recipients">recipient(s)</string>
+    <string name="more_recipients">получатель(и)</string>
     <string name="Insert_sdcard">Установите SD-карту</string>
     <string name="pref_title_mms_enable_to_send_delivery_reports">Отправить отчет о доставке</string>
     <string name="pref_summary_mms_enable_to_send_delivery_reports">Отправить отчет о доставке по каждому полученному сообщению</string>
-    <string name="set_service_center_OK">set SMS Service Center OK</string>
-    <string name="set_service_center_fail">set SMS Service Center Failure</string>
+    <string name="set_service_center_OK">Установка Центра службы SMS успешно</string>
+    <string name="set_service_center_fail">Установка Центра службы SMS неудачно</string>
     <string name="OK">OK</string>
     <string name="Cancel">Cancel</string>
     <string name="sms_save_location">Место хранения SMS</string>
@@ -1088,20 +1096,20 @@ Incompleted: %d"</string>
     <string name="pref_summary_wappush_sl_autoloading">Автоматический запуск сообщения о загрузке сервиса (SL) при получении</string>
     <string name="create_new_message">Написать новое сообщение</string>
     <string name="menu_send_sms">Отправить сообщение %s</string>
-    <string name="menu_omacp">Configuration message</string>
+    <string name="menu_omacp">Настройка сообщений</string>
     <string name="menu_undelivered_messages">Недоставленные сообщения</string>
     <string name="broadcast_from_to">%1$s &amp;gt; %2$s</string>
     <string name="anonymous_recipient">Аноним</string>
     <string name="view_picture">Просмотреть картинку</string>
     <string name="save_message_to_sim">Сохранить сообщение на SIM</string>
-    <string name="sent_on">Отправлено в: %s</string>
+    <string name="sent_on">Отправлено в :%s</string>
     <string name="received_on">Полученные: %s</string>
     <string name="save_message_to_sim_successful">Сохранение выполнено</string>
     <string name="save_message_to_sim_unsuccessful">Сохранение не выполнено</string>
     <string name="transmission_transiently_failed">Ошибка передачи данных. Попытка будет повторена позже.</string>
     <string name="download_failed_due_to_full_memory">Сбой загрузки сообщения из-за переполнения памяти.</string>
     <string name="mms_too_big_to_download">Сообщение слишком большое для загрузки из сети</string>
-    <string name="menu_reply">Reply</string>
+    <string name="menu_reply">Ответ</string>
     <string name="menu_sim_sms">SIM SMS</string>
     <string name="name_colon"><b>%s</b>": "</string>
     <string name="compose_title">Новое сообщение</string>
@@ -1177,21 +1185,21 @@ Incompleted: %d"</string>
     <string name="add_contact_dialog_new">Новый</string>
     <string name="add_contact_dialog_existing">Существующий</string>
     <string name="deleting">Удаление</string>
-    <string name="pref_title_storage_status">Current storage usage</string>
-    <string name="storage_dialog_mms">Mms: %s item(s)</string>
-    <string name="storage_dialog_sms">Sms: %s item(s)</string>
-    <string name="storage_dialog_attachments">"Mms attachments: "</string>
-    <string name="storage_dialog_database">"Database: "</string>
-    <string name="storage_dialog_available_space">"Available space: "</string>
-    <string name="menu_show_icc_sms_capacity">View capacity</string>
-    <string name="show_icc_sms_capacity_title">Capacity</string>
-    <string name="icc_sms_used">Used :</string>
-    <string name="icc_sms_total">Total :</string>
-    <string name="get_icc_sms_capacity_failed">Get SIM capacity failed.</string>
+    <string name="pref_title_storage_status">Использование текущего хранилища</string>
+    <string name="storage_dialog_mms">MMS: %s item(s)</string>
+    <string name="storage_dialog_sms">SMS: %s item(s)</string>
+    <string name="storage_dialog_attachments">"MMS attachments: "</string>
+    <string name="storage_dialog_database">"База данных : "</string>
+    <string name="storage_dialog_available_space">"Свободное место: "</string>
+    <string name="menu_show_icc_sms_capacity">Просмотреть объем</string>
+    <string name="show_icc_sms_capacity_title">Объем</string>
+    <string name="icc_sms_used">Использовано :</string>
+    <string name="icc_sms_total">Всего :</string>
+    <string name="get_icc_sms_capacity_failed">Определение объема SIM прошло неудачно.</string>
     <string name="pref_title_mms_auto_reply_read_reports">Отправить отчет о прочтении</string>
     <string name="pref_summary_mms_auto_reply_read_reports">Отправить отчет о прочтении по запросу отправителя MMS</string>
-    <string name="exceed_subject_length_limitation">Reached max length</string>
-    <string name="disable_notifications_dialog_message">Stop duplicate text message notifications from default Messaging app?</string>
+    <string name="exceed_subject_length_limitation">Достигнута максимальная длина</string>
+    <string name="disable_notifications_dialog_message">Остановить дублирование уведомлений текстовых сообщений?</string>
     <string name="sms_input_mode_title">Режим ввода</string>
     <string name="sms_input_mode_dialog_title">Выбрать режим ввода</string>
     <string name="sms_input_mode_summary">Режим ввода SMS для составления сообщения</string>
@@ -1213,7 +1221,7 @@ Incompleted: %d"</string>
     <string name="whether_export_item">Экспортировать SMS?</string>
     <string name="whether_import_item">Импортировать</string>
     <string name="export_disk_problem">Карта SD заполнена или запись невозможна</string>
-    <string name="select_text">Select text</string>
+    <string name="select_text">Выделить текст</string>
     <string name="unselect_all">Отменить выбор всего</string>
     <string name="forward_from">Forward from:</string>
     <string name="sms_forward_setting">SMS Forward Setting</string>
@@ -1269,13 +1277,13 @@ Incompleted: %d"</string>
     <string name="folder_download">MMS загружено</string>
     <string name="confirm_download_message">подтвердить загрузку сообщения</string>
     <string name="play_as_slideshow">Воспроизвести MMS как слайдшоу</string>
-    <string name="invalid_contact_message">"The contact doesn't exist."</string>
+    <string name="invalid_contact_message">"Контакт не существует."</string>
     <string name="by_card">По:</string>
-    <string name="page">Page %d:</string>
+    <string name="page">Страница %d:</string>
     <string name="space_not_enough">Недостаточно свободного места для захвата видео</string>
     <string name="no_messages">Нет сообщений</string>
     <string name="storage_dialog_mms_size">"Размер MMS: "</string>
-    <string name="error_add_attachment">Unkown error, can not add %1$s to your message.</string>
+    <string name="error_add_attachment">Неизвестная ошибка, невозможно добавить %1$s в сообщение.</string>
     <string name="no_application_response">Нет приложений для обработки запроса</string>
     <string name="label_loaderframent">Контакты</string>
     <string name="label_mmsframent">Сообщения</string>
@@ -1283,7 +1291,7 @@ Incompleted: %d"</string>
     <string name="label_updatefragment">Подробности обновления</string>
     <string name="label_calllog">Вызовы</string>
     <string name="label_allcontacts">Все контакты</string>
-    <string name="label_mms">SMS</string>
+    <string name="label_mms">MMS</string>
     <string name="prompt_quick_position">Фамилия</string>
     <string name="prompt_select_all">Выбрать все</string>
     <string name="deleteSelectedConfirmation">Выбранные контакты будут удалены.</string>
@@ -1296,8 +1304,8 @@ Incompleted: %d"</string>
     <string name="contacts_show_option_label">Параметры отображения</string>
     <string name="title_contacts_settings">Настройка</string>
     <string name="title_stick_photo">Изменить фото контакта</string>
-    <string name="prompt_no_contacts_pepole">You have no contact</string>
-    <string name="login_lewa_account">Login LeWa account</string>
+    <string name="prompt_no_contacts_pepole">У вас нет контакта</string>
+    <string name="login_lewa_account">Зайти в LeWa аккаунт</string>
     <string name="prompt_contact_myself">Я</string>
     <string name="prompt_no_profile_data">Вы не добавили полную информацию в визитную карточку</string>
     <string name="edit_my_card">Изменить мою визитную карточку</string>
@@ -1309,11 +1317,12 @@ Incompleted: %d"</string>
     <string name="add_to_blacklist">Добавить в черный список</string>
     <string name="clear_from_blacklist">Удалить из чёрного списка</string>
     <string name="addblack_dec">Замечание (необязательно)</string>
-    <string name="importsms_black">Импорт всех смс на номер</string>
+    <string name="importsms_black">Импорт всех SMS на номер</string>
     <string name="menu_manually_refresh">Обновить</string>
     <string name="prompt_nerwork_offline">Ошибка обновления, проверьте сеть</string>
-    <string name="yiliao_progress_match_yiliao_number_done">Contact status refresh is complete</string>
-    <string name="yiliao_progress_match_yiliao_number_fail">Contact status refresh is fail</string>
+    <string name="yiliao_progress_match_yiliao_number_done">Обновление статуса контакта завершено</string>
+    <string name="yiliao_progress_match_yiliao_number_fail">Обновление статуса контакта неудачно</string>
+    <string name="prompt_add_stranger">Сперва следует сохранить в контактах</string>
     <string name="dialpad_call">Вызов</string>
     <string name="twelve_hour_time_format">h:mma</string>
     <string name="send_message">Отправить сообщение</string>
@@ -1325,15 +1334,60 @@ Incompleted: %d"</string>
     <string name="message_send_to">Отправить:</string>
     <string name="pref_title_save_location">Папка сохранения вложений</string>
     <string name="pref_summary_save_location">Папка для сохранения вложений сообщений</string>
-    <string name="remove_subject">удалите тему</string>
-    <string name="message_compose_menu_mms_resend_label">переслать mms</string>
+    <string name="remove_subject">Удалите тему</string>
+    <string name="message_compose_menu_mms_resend_label">Переслать MMS</string>
     <string name="message_item_received_label">Доставлено в :</string>
-    <string name="sms_backup_location">Место резервного копирования SMS</string>
+    <string name="sms_backup_location">Место для резервных копий SMS</string>
+    <string name="sms_send_count_limit">Отправить сообщение можно только выбрать один из 100 контактов</string>
+    <string name="mms_lewa_easter_eggs">С Днем Рождения</string>
+    <string name="hint">Строка для ввода ответа...</string>
+    <string name="reply">Ответ</string>
+    <string name="choosesms">Выбрать общее сообщение</string>
+    <string name="alter_title">Полезные советы</string>
+    <string name="alter_message">Вы уверены, что хотите удалить это сообщение?</string>
+    <string name="alter_positive">Конечно</string>
+    <string name="alter_successed_toast">Успешно удалено</string>
+    <string name="alter_negtive">Cancle</string>
+    <string name="replycontent">Содержимое не может быть пустым</string>
+    <string name="message_ims_sending_string">Отправить Wassage.......</string>
+    <string name="message_sending_string">Отправка сообщения...</string>
+    <string name="pref_key_sms_realtime_dialog">Всплывающие SMS</string>
+    <string name="pref_key_sms_realtime_summary_dialog">Автоматически выводить полученные сообщения во всплывающем окне.</string>
+    <string name="menu_unread_all">Все непрочитано</string>
+    <string name="mms_menu_del_message">Удалить сообщение</string>
     <string name="prefs_ims_settings">Настройка бесплатных сообщений</string>
     <string name="prefs_ims_close_title">Сервис бесплатных сообщений</string>
     <string name="prefs_ims_close_title_summary">Включите для отправки бесплатных текстовых, голосовых, видео и фото сообщений.</string>
-    <string name="prefs_ims_aout_to_sms_mode">Пересылать по СМС</string>
-    <string name="prefs_ims_aout_to_sms_summary_mode">Автомотически пересылать бесплатные сообщения по СМС если нет доступа к сети.</string>
+    <string name="prefs_ims_aout_to_sms_mode">Пересылать по SMS</string>
+    <string name="prefs_ims_aout_to_sms_summary_mode">Автомотически пересылать бесплатные сообщения по SMS если нет доступа к сети.</string>
+    <string name="message_ims_user_service_info">"Free information service user agreement
+One, the agreement to grant you the following rights:
+
+Installation and use:
+
+You can copy, distribute and disseminate an unlimited number of software products, but you must ensure that each reproduction, distribution and dissemination must be true and complete, including all software products on this software, electronic documents, copyright and trademark notices, also including this agreement.
+
+Two, costs:
+
+You must pay personal Internet or third party ( including but not limited to, telecommunications or mobile communication provider ) communication charge fee, fee information and other related costs. As related to value-added telecom services, we recommend you and value-added service provider to confirm the related costs. Any of the software update, update and other change will be the subject of this agreement.
+
+Three, privacy protection
+
+To protect user privacy is a free information service is a basic policy, ensure not open to the public or to the third party to provide a single user registration information and users in the use of network services non-public content, except in the following situations:
+
+Prior to obtaining the clear authorization of user;
+
+According to the relevant laws and regulations;
+
+In accordance with the relevant government departments in charge of the requirements;
+
+In order to safeguard the public interest;
+
+To safeguard the legitimate rights and interests of a letter.
+
+In the disclosed single user privacy under the premise, has the right to the user database are analyzed and the user database for commercial use.
+
+In four, the opening of free information service needs to send a message to the server to complete the registration fee, with ordinary SMS messages, by charge carriers, Le frog does not charge any fees."</string>
     <string name="message_ims_user_service_message_info">Free information service is more powerful than ordinary information, voice intercom chat network easily with online contacts, text chat, save money to send pictures and other multimedia information and communication experience unlimited fun.</string>
     <string name="message_ims_user_service_open">Присоедениться</string>
     <string name="message_ims_user_service_to_later">Позже</string>
@@ -1344,43 +1398,47 @@ Incompleted: %d"</string>
     <string name="message_yesterday">Вчера</string>
     <string name="compose_voice_button">Hold to Talk</string>
     <string name="compose_recorder_no_press">Unsent attachments!</string>
-    <string name="message_sd_card_min_size">SD card memory is not enough.</string>
-    <string name="compose_recorder_to_short">Your recording is too short and will not be sent</string>
-    <string name="mms_input_voice_no_sdcard">SD card not detected, unable to send voice message.</string>
+    <string name="message_sd_card_min_size">Не достаточно места на SD карте.</string>
+    <string name="compose_recorder_to_short">Ваша запись очень короткая и не может быть отправлена</string>
+    <string name="mms_input_voice_no_sdcard">SD карта не обнаружена, отсутствует возможность отправить голосовое сообщение.</string>
     <string name="compose_recorder_invalid_network">Available networks, open wifi or 3G networks.</string>
     <string name="mms_nomal_message">Текст сообщения</string>
     <string name="mms_ims_message">Бесплатное сообшение</string>
     <string name="compose_stop_audio_text">stop</string>
-    <string name="message_ims_sending_file_maxsize">Unable to send files greater than 2MB.</string>
-    <string name="mms_input_play_no_sdcard">SD card not detected, unable to play voice message.</string>
-    <string name="ims_resend_message">Resend FMS</string>
-    <string name="ims_resend_message_to_sms">Resend as SMS</string>
-    <string name="mms_audio_message_text">Audio</string>
-    <string name="mms_image_message_text">Image</string>
-    <string name="mms_video_message_text">Video</string>
+    <string name="message_ims_sending_file_maxsize">Отправка файлов больше 2 Мб невозможна.</string>
+    <string name="mms_input_play_no_sdcard">SD карта не обнаружена, отсутствует возможность воспроизвести голосовое сообщение.</string>
+    <string name="ims_resend_message">Переотправить FMS</string>
+    <string name="ims_resend_message_to_sms">Переотправить как SMS</string>
+    <string name="mms_audio_message_text">Аудио</string>
+    <string name="mms_image_message_text">Картинка</string>
+    <string name="mms_video_message_text">Видео</string>
     <string name="mms_ims_menu_mode_in_call">Mode in call</string>
-    <string name="mms_ims_menu_mode_in_normal">Mode in normal</string>
-    <string name="mms_ims_open_wait">Are open free information, please wait ......</string>
-    <string name="prefs_ims_service_title">Free Messages Service</string>
+    <string name="mms_ims_menu_mode_in_normal">Нормальный режим</string>
+    <string name="mms_ims_open_wait">Are open free information, пожалуйста подождите ......</string>
+    <string name="prefs_ims_service_title">Сервис бесплатных сообщений</string>
+    <string name="mms_ims_attachment_type_error">Мультимедийное приложение не поддерживает отправку писем лягушатам.</string>
+    <string name="mms_attachment_type_error">Мультимедийное приложение не поддерживает MMS.</string>
+    <string name="mms_key_tip">Зажмите ползунок и сместите его влево для смены SIM-карты!</string>
+    <string name="mms_send_error">Не отправлено</string>
     <string name="ip_call_settings">IP call settings</string>
     <string name="ip_prefix_hint">Such as 17951,12593,17911</string>
     <string name="ip_prefix_description">IP prefix</string>
     <string name="ip_prefix_sim1_description">IP prefix</string>
     <string name="ip_prefix_sim2_description">IP prefix for SIM 2</string>
-    <string name="auto_ip_call_headline">IP call</string>
+    <string name="auto_ip_call_headline">IP вызов</string>
     <string name="auto_ip_call_description">Automatically add IP number when dialing phone numbers.</string>
-    <string name="my_number_location_description">My number location</string>
-    <string name="other_ip_prefix">Other IP prefix</string>
+    <string name="my_number_location_description">Мой порядковый номер</string>
+    <string name="other_ip_prefix">Другие IP префиксы</string>
     <string name="sim_card_1">simcard1</string>
     <string name="sim_card_2">simcard2</string>
-    <string name="ip_call_prefix">Operator IP dialing prefix:</string>
-    <string name="ims_ip_call_description">Smart IP call</string>
-    <string name="not_use_ip_call_description">Not use IP numbers</string>
-    <string name="has_been_set">Already set</string>
-    <string name="long_distance_call">make long distance call</string>
-    <string name="has_not_been_set">Has not been set</string>
-    <string name="input_error">Input error</string>
-    <string name="phoneNumber_empty">No number added</string>
+    <string name="ip_call_prefix">Оператор IP dialing prefix:</string>
+    <string name="ims_ip_call_description">Smart IP вызов</string>
+    <string name="not_use_ip_call_description">Не используйте IP номера</string>
+    <string name="has_been_set">Уже установлено</string>
+    <string name="long_distance_call">Совершить междугородний звонок</string>
+    <string name="has_not_been_set">Не установлено</string>
+    <string name="input_error">Ошибка ввода</string>
+    <string name="phoneNumber_empty">Номер не добавлен</string>
     <string name="add_number">Добавить номер</string>
     <string name="ip_menu_modify">Изменить</string>
     <string name="ip_menu_delete">Удалить</string>
@@ -1389,4 +1447,11 @@ Incompleted: %d"</string>
     <string name="delete_description">Действительно хотите удалить?</string>
     <string name="contact_item_delete_error">Ошибка удаления</string>
     <string name="menu_call_via_another_slot">Позвонить с другой SIM</string>
+    <string name="speed_dial_error_message">"Это не номер телефона! Пожалуйста, добавьте этот номер в список быстрого набора."</string>
+    <string name="dial_key_tip">Зажмите ползунок и сместите его влево для смены SIM-карты!</string>
+    <string name="import_contacts_title">Импорт контактов</string>
+    <string name="contact_sync">Синхронизация контактов</string>
+    <string name="login_lewa">Необходимо зайти в Lewa аккаунт</string>
+    <string name="dialpad_empty_text">Список вызовов пуст</string>
+    <string name="message_empty_text">Сообщения отсутствуют</string>
 </resources>
