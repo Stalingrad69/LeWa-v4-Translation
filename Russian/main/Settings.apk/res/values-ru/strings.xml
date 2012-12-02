@@ -2317,7 +2317,7 @@
     <string name="size_available">Доступный</string>
     <string name="gsm_umts_network_preferences_default_values">0</string>
     <string name="notify_dialog_message">Требуется перезагрузка, чтобы изменения вступили в силу. Перезагрузить сейчас?</string>
-    <string name="sim_setting_guide_continue">Продолжить</string>
+    <string name="sim_setting_guide_continue">Вперед</string>
     <string name="sim_setting_guide_cancel">Отмена</string>
     <string name="ring_title">Вызов (звонок、сообщение、уведомление)</string>
     <string name="labi_sync_title">Синхронизация контактов</string>

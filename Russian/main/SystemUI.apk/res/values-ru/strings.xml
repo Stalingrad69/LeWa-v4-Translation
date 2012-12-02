@@ -171,7 +171,7 @@
     <string name="mobiledata">Данные</string>
     <string name="lockscreen">Блокировка</string>
     <string name="networkmode">2G/3G</string>
-    <string name="autorotate">Экран</string>
+    <string name="autorotate">Вращение</string>
     <string name="airplane">Полет</string>
     <string name="flashlight">Фонарик</string>
     <string name="sleep">Сон</string>
@@ -242,7 +242,7 @@
     <string name="poputip_title3">Все уведомления для этого приложения</string>
     <string name="poputip_title4">Просмотр сведений из этого приложения</string>
     <string name="poputip_toast">Забаненые уведомления %s</string>
-    <string name="usb_mode_notification">USB накопитель</string>
+    <string name="usb_mode_notification">Режим USB дисков</string>
     <string name="status_bar_settings_signal_meter_wifi_nossid">Wi-Fi подключен</string>
     <string name="gps_notification_searching_text">Поиск GPS</string>
     <string name="gps_notification_found_text">Расположение установлено с помощью GPS</string>
@@ -284,19 +284,19 @@
     <string name="title_toggle_gps">GPS</string>
     <string name="title_toggle_sound">Бесшумно</string>
     <string name="title_toggle_vibrator">Вибрация</string>
-    <string name="title_toggle_brightness">Яркость</string>
+    <string name="title_toggle_brightness">АвтоЯрк.</string>
     <string name="title_toggle_sync">Синхр</string>
     <string name="title_toggle_wifiap">Точка доступа Wifi</string>
     <string name="title_toggle_mobiledata">Передача данных</string>
     <string name="title_toggle_lockscreen">Блокировка экрана</string>
     <string name="title_toggle_networkmode">2G/3G</string>
-    <string name="title_toggle_autorotate">Автоповорот</string>
-    <string name="title_toggle_airplane">Режим полета</string>
+    <string name="title_toggle_autorotate">Вращение</string>
+    <string name="title_toggle_airplane">В полете</string>
     <string name="title_toggle_flashlight">Фонарик</string>
     <string name="title_toggle_sleep">Сон</string>
     <string name="title_toggle_locknow">Блок</string>
-    <string name="title_toggle_shutdown">Выключение</string>
-    <string name="title_toggle_reboot">Перезагрузка</string>
+    <string name="title_toggle_shutdown">Выкл-ние</string>
+    <string name="title_toggle_reboot">Перезагруз.</string>
     <string name="title_toggle_powermanager">Power+</string>
     <string name="title_toggle_switchwidgetstyle">Еще</string>
     <string name="title_toggle_screencapture">Скриншот</string>
@@ -315,7 +315,7 @@
 	<string name="netspeed_setting">Показывать скорость сети</string>
     <string name="settings_disusagedata">key_usagedata_settings</string>
     <string name="recent_totalmem">Всего памяти:</string>
-    <string name="recent_freemem">Свободно:</string>
+    <string name="recent_usedmem">Использовано:</string>
     <string name="phonestatusbarsettings_title">Настройки положения</string>
     <string name="trans_statusbar_setting">Прозрачный статусбар</string>
     <string name="trans_statusbar_key">trans_statusbar_key</string>
@@ -326,6 +326,6 @@
     <string name="power_battery_fulltitle">Заряд батареи</string>
     <string name="power_battery_full">Батарея полностью заряжена. Оключите зарядку</string>
     <string name="lockscreen_expanded">Статусбар в заблокированном состоянии</string>
-    <string name="title_toggle_gemini_data">Карта передачи данных</string>
     <string name="lockscreen_expanded_comman">активно в заблокированном состоянии</string>
+    <string name="title_toggle_gemini_data">Инет SIM 1/2</string>
 </resources>
