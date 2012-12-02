@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<favorites
+  xmlns:launcher="http://schemas.android.com/apk/res/com.lewa.launcher">
+    <favorite launcher:className="com.android.camera.Camera" launcher:packageName="com.android.camera" launcher:screen="1" launcher:x="0" launcher:y="3" />
+    <favorite launcher:className="com.android.deskclock.DeskClock" launcher:packageName="com.android.deskclock" launcher:screen="1" launcher:x="3" launcher:y="3" />
+    <favorite launcher:className="com.lewa.PIM.contacts.activities.DialtactsActivity" launcher:packageName="com.lewa.PIM" launcher:container="-101" launcher:screen="0" launcher:x="0" launcher:y="0" />
+    <favorite launcher:className="com.lewa.PIM.contacts.activities.ContactsEntryActivity" launcher:packageName="com.lewa.PIM" launcher:container="-101" launcher:screen="1" launcher:x="1" launcher:y="0" />
+    <favorite launcher:className="com.android.settings.LewaSettings" launcher:packageName="com.android.settings" launcher:container="-101" launcher:screen="2" launcher:x="2" launcher:y="0" />
+    <favorite launcher:className="com.lewa.PIM.contacts.activities.MessageActivity" launcher:packageName="com.lewa.PIM" launcher:container="-101" launcher:screen="3" launcher:x="3" launcher:y="0" />
+</favorites>

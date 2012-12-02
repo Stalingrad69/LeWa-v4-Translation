@@ -146,7 +146,7 @@
     <string name="pref_allapp_setting_loop_summary">Циклическая прокрутка по списку приложений</string>
     <string name="pref_allapp_setting_loopvibrator_summary">Вибрация при циклической прокрутке списка</string>
     <string name="pref_allapp_setting_alpha_summary">Полупрозрачный фон для списка приложений</string>
-    <string name="system_group_newgroup">Группа</string>
+    <string name="system_group_newgroup">Новая группа</string>
     <string name="system_groupname_system">Система</string>
     <string name="system_groupname_social">Социальные</string>
     <string name="system_groupname_game">Игры</string>
