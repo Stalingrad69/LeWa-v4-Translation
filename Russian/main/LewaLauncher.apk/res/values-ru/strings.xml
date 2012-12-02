@@ -1,10 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!--Decoded by jBART (BurgerZ <az.burgerz@gmail.com)>-->
-<resources>
+<!--Decoded by jBART (BurgerZ <az.burgerz@gmail.com)>--><resources>
     <string name="config_drawerDefaultTransitionEffect">Stack</string>
     <string name="config_workspaceDefaultTransitionEffect">Standard</string>
     <string name="application_name">Рабочий стол</string>
-    <string name="uid_name">Android Core Apps</string>
+    <string name="uid_name">Основные Андроид приложения</string>
     <string name="folder_name">Папка</string>
     <string name="chooser_wallpaper">Выбрать обои из</string>
     <string name="wallpaper_instructions">Установить обои</string>
@@ -56,6 +55,7 @@
     <string name="menu_help">Помощь</string>
     <string name="menu_apps_sort_title">Имя</string>
     <string name="menu_apps_sort_install_date">Дата установки</string>
+    <string name="help_url" />
     <string name="cab_menu_delete_app">Удалить приложение</string>
     <string name="cab_menu_app_info">Информация приложения</string>
     <string name="cab_app_selection_text">выбрано 1 приложение</string>
@@ -72,7 +72,7 @@
     <string name="permdesc_write_settings">Позволяет приложению сохранять настройки ярлыков и рабочего стола.</string>
     <string name="gadget_error_text">Ошибка загрузки виджета</string>
     <string name="uninstall_system_app_text">Это системное приложение и не может быть удалено.</string>
-    <string name="dream_name">Rocket Launcher</string>
+    <string name="dream_name">Ланчер РАКЕТА</string>
     <string name="folder_hint_text">Папка без имени</string>
     <string name="group_hint_text">Группа без имени</string>
     <string name="default_scroll_format">Экран %1$d из %2$d</string>
@@ -126,7 +126,7 @@
     <string name="pref_title_activity_format">Высокое качество</string>
     <string name="pref_summary_activity_format">Включение может уменьшить производительность</string>
     <string name="pref_title_othersetttings">Другие настройки</string>
-    <string name="pref_title_action_updown">Desktop gestures</string>
+    <string name="pref_title_action_updown">Жесты рабочего стола</string>
     <string name="pref_summary_action_updown">На рачем столе проведите вверх для открытия меню или вниз для открытия уведомлений</string>
     <string name="pref_title_scroll_speed">Скорость прокрутки</string>
     <string name="pref_summary_scroll_speed">Позволяет увеличить скорость прокрутки</string>
@@ -150,7 +150,7 @@
     <string name="system_groupname_system">Система</string>
     <string name="system_groupname_social">Социальные</string>
     <string name="system_groupname_game">Игры</string>
-    <string name="system_groupname_play">Plays</string>
+    <string name="system_groupname_play">Воспроизведение</string>
     <string name="system_groupname_tool">Утилиты</string>
     <string name="system_groupname_other">Другие</string>
     <string name="allapp_groupname_null">Имя группы не может быть пустым</string>

@@ -1,7 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!--Decoded by jBART (BurgerZ <az.burgerz@gmail.com)>-->
-<resources>
+<!--Decoded by jBART (BurgerZ <az.burgerz@gmail.com)>--><resources>
     <string-array name="desktop_transition_effect_entries">
+        <item>Стандарт</item>
+        <item>Планшет</item>
+        <item>Приближение</item>
+        <item>Удаление</item>
+        <item>Вращение вверх</item>
+        <item>Вращение вниз</item>
+        <item>Куб (+)</item>
+        <item>Куб (-)</item>
+        <item>Стек (хз)</item>
+    </string-array>
+    <string-array name="desktop_transition_effect">
         <item>Стандарт</item>
         <item>Планшет</item>
         <item>Приближение</item>
@@ -22,5 +32,89 @@
         <item>Куб (+)</item>
         <item>Куб (-)</item>
         <item>Стек (хз)</item>
+    </string-array>
+    <string-array name="preferences_interface_drawer_scrolling_transition_effect_values">
+        <item>Стандарт</item>
+        <item>Планшет</item>
+        <item>Приближение</item>
+        <item>Удаление</item>
+        <item>Вращение вверх</item>
+        <item>Вращение вниз</item>
+        <item>Куб (+)</item>
+        <item>Куб (-)</item>
+        <item>Стек (хз)</item>
+    </string-array>
+    <array name="extra_wallpapers" />
+    <string-array name="groups_system">
+        <item>com.android.providers.downloads.ui.DownloadList</item>
+        <item>com.noshufou.android.su.Su</item>
+        <item>com.lewa.updater.UpdaterActivity</item>
+        <item>com.android.settings.LewaSettings</item>
+        <item>com.lewa.intercept.MainActivity</item>
+        <item>com.tencent.qqpimsecure.ui.activity.SplashActivity</item>
+    </string-array>
+    <string-array name="group_social">
+        <item>com.tencent.mobileqq.activity.SplashActivity</item>
+        <item>com.tencent.mm.ui.LauncherUI</item>
+        <item>com.renren.mobile.android.ui.WelcomeScreen</item>
+        <item>com.sina.weibo.SplashActivity</item>
+        <item>com.dianping.v1.SplashScreenActivity</item>
+    </string-array>
+    <string-array name="group_game">
+        <item>com.socogame.ppc.PlayPlusClientActivity</item>
+        <item>com.netease.apper.Welcome</item>
+        <item>com.appcate.game.App_Store_Featrued_MyGame</item>
+        <item>com.appcate.game.App_Store_Featrued</item>
+        <item>com.uucun50000868.android.cms.activity.MarketLoginAndRegisterActivity</item>
+        <item>com.android.vending.AssetBrowserActivity</item>
+    </string-array>
+    <string-array name="group_play">
+        <item>com.mediatek.FMRadio.FMRadioActivity</item>
+        <item>com.lewa.player.ui.outer.MusicMainEntryActivity</item>
+        <item>com.lewa.player.ui.video.VideoBrowserActivity</item>
+        <item>com.mediatek.videoplayer.MovieListActivity</item>
+        <item>com.tencent.qqmusic.activity.AppStarterActivity</item>
+        <item>com.letv.android.client.activity.WelcomeActivity</item>
+    </string-array>
+    <string-array name="group_tool">
+        <item>com.android.email.activity.Welcome</item>
+        <item>com.lewa.PIM.contacts.activities.DialtactsActivity</item>
+        <item>com.lewa.PIM.contacts.activities.MessageActivity</item>
+        <item>com.lewa.PIM.contacts.activities.ContactsEntryActivity</item>
+        <item>com.uc.browser.ActivityUpdate</item>
+        <item>com.android.camera.Camera</item>
+        <item>com.lewa.themechooser.ThemeChooser</item>
+        <item>com.android.calculator2.Calculator</item>
+        <item>com.when.android.calendar365.CalendarMain</item>
+        <item>com.android.gallery3d.app.Gallery</item>
+        <item>com.lewa.search.LewaSearchActivity</item>
+        <item>com.android.deskclock.DeskClock</item>
+        <item>com.android.soundrecorder.SoundRecorder</item>
+        <item>com.lewa.filemanager.FileManagerMainActivity</item>
+        <item>com.lewa.spm.activity.SPMActivity</item>
+        <item>com.baidu.input.ConfigActivity</item>
+        <item>com.google.android.gm.ConversationListActivityGmail</item>
+        <item>com.android.browser.BrowserActivity</item>
+        <item>cn.wps.moffice.documentmanager.PreStartActivity</item>
+        <item>com.youdao.note.activity2.HomeActivity</item>
+        <item>com.asrazpaid.MainView</item>
+        <item>com.youdao.dict.activity.DictSplashActivity</item>
+        <item>com.netease.mobimail.activity.MainActivity</item>
+        <item>com.baidu.BaiduMap.BaiduMap</item>
+        <item>com.chaozh.iReader.ui.activity.WelcomeActivity</item>
+        <item>com.baidu.browser.apps.BrowserActivity</item>
+    </string-array>
+    <string-array name="wallpapers">
+        <item>wallpaper_architecture</item>
+        <item>wallpaper_bubblegum</item>
+        <item>wallpaper_canyon</item>
+        <item>wallpaper_chroma</item>
+        <item>wallpaper_escape</item>
+        <item>wallpaper_fidelity</item>
+        <item>wallpaper_flora</item>
+        <item>wallpaper_kepler</item>
+        <item>wallpaper_leaf</item>
+        <item>wallpaper_noir</item>
+        <item>wallpaper_outofthebox</item>
     </string-array>
 </resources>
