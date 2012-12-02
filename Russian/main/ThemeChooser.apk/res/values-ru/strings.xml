@@ -1,13 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!--Decoded by jBART (BurgerZ <az.burgerz@gmail.com)>-->
-<resources>
+<!--Decoded by jBART (BurgerZ <az.burgerz@gmail.com)>--><resources>
     <string name="theme_local">Локальные</string>
     <string name="theme_online">Онлайн</string>
     <string name="theme_customize">Свои</string>
     <string name="theme_loading">Загрузка...</string>
     <string name="app_name">Темы</string>
     <string name="app_title">Темы</string>
-    <string name="share">share</string>
+    <string name="share">часть</string>
     <string name="info">Инфо</string>
     <string name="apply">Применить</string>
     <string name="delete">Удалить</string>
@@ -37,8 +36,8 @@
     <string name="theme_network_error_title">Ошибка соединения</string>
     <string name="theme_network_error_msg">Для загрузки темы необходимо сетевое подключение, пожалуйста, включите Wi-Fi</string>
     <string name="theme_network_set">Выбрать</string>
-    <string name="theme_network_remind_title">Network suggestion</string>
-    <string name="theme_network_remind_msg">"Your wifi don't open, suggest open it"</string>
+    <string name="theme_network_remind_title">Сетевые предложения</string>
+    <string name="theme_network_remind_msg">"Ваш Wi-Fi не открывается, предлагаю открыть его"</string>
     <string name="theme_ignore">Игнорировать</string>
     <string name="theme_customize_part">Настройка элементов темы</string>
     <string name="download_or_unzip_fail">Ошибка загрузки</string>
@@ -71,7 +70,7 @@
     <string name="no_sdcard">Пожалуйста, вставьте SD карту и попробуйте еще раз</string>
     <string name="filemanager_can_not_find">Файловый менеджер не найден!</string>
     <string name="import_other_app">Импорт из других приложений</string>
-    <string name="other_uri">other</string>
+    <string name="other_uri">другое</string>
     <string name="theme_count">Эта тема содержит %s модулей</string>
     <string name="theme_details">детали темы</string>
     <string name="no_modules_to_apply">Нет модулей для применения</string>
@@ -91,7 +90,7 @@
     <string name="theme_font_online">Онлайн</string>
     <string name="sdcardfull">SD карта переполнена, невозможно загрузить миниатюру</string>
     <string name="init_install_theme">Инициализация темы, пожалуйста, подождите...</string>
-    <string name="apply_font">apply font</string>
+    <string name="apply_font">Применить шрифт</string>
     <string name="apply_font_success">Шрифты установлены. Необходима перезагрузка.</string>
     <string name="apply_font_sure">Перезагрузить</string>
     <string name="apply_font_cancel">Отменить</string>
