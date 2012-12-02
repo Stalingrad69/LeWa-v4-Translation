@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!--Decoded by jBART (BurgerZ <az.burgerz@gmail.com)>-->
-<resources>
+<!--Decoded by jBART (BurgerZ <az.burgerz@gmail.com)>--><resources>
     <string name="ACCOUNT_TYPE">com.lewa.pond</string>
     <string name="ACCOUNT_LABEL">Lewa Pond</string>
     <string name="app_name">Lewa Pond</string>
@@ -37,7 +36,7 @@
     <string name="label_register_sms">SMS-регистрацию</string>
     <string name="label_almost_done">Почти готово!</string>
     <string name="label_internet_connection">Подключение к Интернету</string>
-    <string name="label_email">Email</string>
+    <string name="label_email">Почта</string>
     <string name="label_email_address">Адрес электронной почты</string>
     <string name="label_email_verification">Подтверждение адреса электронной почты</string>
     <string name="label_password">Пароль</string>
@@ -55,11 +54,11 @@
     <string name="label_cancel_change">Отменить изменения</string>
     <string name="label_account_password_hint">Новый пароль</string>
     <string name="label_sendsms">Отправить SMS</string>
-    <string name="label_check_email">Check email</string>
-    <string name="label_go_to_inbox">Go to email inbox</string>
-    <string name="label_later">Later</string>
-    <string name="label_switch_users">Switch users</string>
-    <string name="header_data_and_synchronization">Data &amp; synchronization</string>
+    <string name="label_check_email">Проверить почту</string>
+    <string name="label_go_to_inbox">Перейти во входящие</string>
+    <string name="label_later">Позже</string>
+    <string name="label_switch_users">Переключатель пользователей</string>
+    <string name="header_data_and_synchronization">Синхронизация &amp; данных</string>
     <string name="labi_sync_title">Синхронизация Контактов</string>
     <string name="labi_sync_summary">Синхронизация Контакт с Labi</string>
     <string name="labi_recovery_title">Восстановление контактов</string>
