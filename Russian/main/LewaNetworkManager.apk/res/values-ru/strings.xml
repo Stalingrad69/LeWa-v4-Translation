@@ -20,13 +20,13 @@
     <string name="time_today">Сегодня</string>
     <string name="time_month">В этом месяце</string>
     <string name="time_all">Все</string>
-    <string name="usage_title">  Расход интернета</string>
+    <string name="usage_title">-=Расход=- интернета</string>
     <string name="usage_today_usage">Сегодня</string>
     <string name="usage_daliy_remain">Ежедневно</string>
     <string name="usage_day_remain">Осталось</string>
     <string name="usage_cycle_day">Цикл дней</string>
     <string name="usage_exceed">Превышает</string>
-    <string name="usage_remain">Еще</string>
+    <string name="usage_remain">Осталось</string>
     <string name="usage_nocard">неизвестно</string>
     <string name="usage_total">Всего использовано</string>
     <string name="usage_pack">Кол-во Мб/Дней</string>
@@ -42,7 +42,7 @@
     <string name="pref_alert_title">Дружественные советы</string>
     <string name="pref_data_pack">Лимит инета</string>
     <string name="pref_data_pack_title">Настроить лимит инета</string>
-    <string name="pref_data_pack_summary">%1$s，еще :%2$s，прошло:%3$s дней</string>
+    <string name="pref_data_pack_summary">%1$s，еще :%2$s，на :%3$s дней</string>
     <string name="pref_monthly_usage">Потрачено</string>
     <string name="pref_adjust_regularly">Настроить период измерения</string>
     <string name="pref_data_warning">Настройка уровня предупреждения </string>
@@ -54,7 +54,7 @@
     <string name="pref_clear_history_confirm">"Вы уверены что хотите очистить историю использования сети
 (очистить все данные об использовании сети)"</string>
     <string name="widget_disabled_mobile">Передача данных отключена</string>
-    <string name="widget_data_pack">Объем </string>
+    <string name="widget_data_pack">Объем</string>
     <string name="notify_data_pack_title">Предупреждение использования инета</string>
     <string name="notify_data_pack_summary">Пожалуйста, установите норму инета</string>
 </resources>
