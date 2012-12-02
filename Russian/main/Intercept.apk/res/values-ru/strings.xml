@@ -1,11 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!--Decoded by jBART (BurgerZ <az.burgerz@gmail.com)>-->
-<resources>
-    <string name="app_name">Intercept</string>
+<!--Decoded by jBART (BurgerZ <az.burgerz@gmail.com)>--><resources>
+    <string name="app_name">Перехватчик</string>
     <string name="init">Инициализация базы данных</string>
     <string name="reset">Включение блокировки только ночью</string>
     <string name="app_setting_name">Настройки</string>
-    <string name="app_title">Intercept</string>
+    <string name="app_title">Перехватчик</string>
     <string name="app_block_name">Черный список</string>
     <string name="app_blocksms_name">Сообщения</string>
     <string name="app_blockcall_name">Вызовы</string>
@@ -16,7 +15,7 @@
     <string name="app_msg_content_name">Содержимое сообщения</string>
     <string name="app_blocktime_name">Период блокировки</string>
     <string name="intercept_mode_title">Включить перехват</string>
-    <string name="intercept_mode_summary">Reject phone calls and filter messages at specified time as per the rules you set</string>
+    <string name="intercept_mode_summary">Отклонить телефонные звонки и фильтровать сообщения в указанное время в соответствии с правилами установки</string>
     <string name="intercept_rule">Настройки перехвата</string>
     <string name="intercept_time">Настройка врем. блокир.</string>
     <string name="intercept_notification">Уведомления</string>
@@ -55,10 +54,10 @@
     <string name="intercept_optionMenu">Очистить %s</string>
     <string name="intercept_blockcalllist_emp">Нет заблокированных вызовов</string>
     <string name="intercept_blockmsglist_emp">Нет заблокированных сообщений</string>
-    <string name="intercept_blocknamelist_emp">Добавить еомер для блокирования</string>
+    <string name="intercept_blocknamelist_emp">Добавить номер для блокировки</string>
     <string name="intercept_white_namelist_emp">Добавить доверенный номер</string>
     <string name="block_num_out_of_all">Перехватывать белый список</string>
-    <string name="block_num_out_of_all_0">Intercept than the number of contacts and white list</string>
+    <string name="block_num_out_of_all_0">Перехватить следующее число контактов и белый список</string>
     <string name="block_setting_start_time">07:00</string>
     <string name="block_setting_end_time">23:00</string>
     <string name="intercept_setting_falied">Настройка не удалась, пожалуйста настройте снова</string>
@@ -190,16 +189,18 @@
     <string name="setting">Настройки</string>
     <string name="delete">Удалить</string>
     <string name="recover">Восстановить</string>
-    <string name="addblack_name">Add BlackName</string>
-    <string name="addWhite_name">Add WhiteName</string>
-    <string name="update_title">Update sms check</string>
-    <string name="update_message">The current Smart intercept library is too old,Click OK to update</string>
-    <string name="confirm">Confirm</string>
-    <string name="cancel">Cancel</string>
-    <string name="noneedToUpdate">Intelligent intercept library has the latest，no need to update</string>
-    <string name="updating">Being updated intelligence intercept library</string>
-    <string name="updateSuccess">Update Successfully</string>
-    <string name="checking">Checking for updates</string>
-    <string name="noselectBlockMode">no select block mode,please select intercept call or intercept msg</string>
-    <string name="networkError">Network Error,Plase check network setting</string>
+    <string name="addblack_name">Добавить имя в Черный список</string>
+    <string name="addWhite_name">Добавить имя в Белый список</string>
+    <string name="update_title">Обновление интеликтуальной библиотеки перехватчика</string>
+    <string name="update_message">В настоящее время смарт-библиотека перехватчика устарела,нажмите ОК, чтобы обновить</string>
+    <string name="confirm">Подтвердить</string>
+    <string name="cancel">Отмена</string>
+    <string name="noneedToUpdate">Интеликтуальная библиотека перехватчика актуальна, нет необходимости ее обновления</string>
+    <string name="updating">Интеликтуальная библиотка перехватчика обновляется</string>
+    <string name="updateSuccess">Обновление успешно</string>
+    <string name="checking">Проверка обновлений</string>
+    <string name="noselectBlockMode">Не выбран блокирующий режим, выберите перехват вызова или перехват сообщений</string>
+    <string name="networkError">Ошибка сети, проверить настройки сети</string>
+    <string name="logo_notice">Тех. поддержка</string>
+    <string name="intelligence_intercept_library_version">Версия библиотеки интелектуального перехватчика:</string>
 </resources>
