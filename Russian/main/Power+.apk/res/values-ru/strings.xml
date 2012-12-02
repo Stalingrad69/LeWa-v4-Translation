@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!--Decoded by jBART (BurgerZ <az.burgerz@gmail.com)>-->
-<resources>
+<!--Decoded by jBART (BurgerZ <az.burgerz@gmail.com)>--><resources>
     <string name="hello">Hello World, MainActivity!</string>
     <string name="app_name">Power+</string>
     <string name="spm_notification_tag_title">Советы по управлению питанием</string>
@@ -121,4 +120,6 @@
     <string name="spm_battery_low_warnnig_title">Батарея разряжена!</string>
     <string name="spm_battery_low_warnnig_msg">Внимание! Уровень заряда меньше</string>
     <string name="spm_battery_low_warnnig_msg_1">.Открыть приложение энергосбережения?</string>
+    <string name="spm_battery_low_warnnig_to_connect">Заряд аккумулятора ниже чем</string>
+    <string name="spm_battery_low_warnnig_to_connect_1">!</string>
 </resources>
