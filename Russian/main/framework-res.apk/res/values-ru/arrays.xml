@@ -18,7 +18,7 @@
     </string-array>
     <string-array name="organizationTypes">
         <item>Рабочий</item>
-        <item>Другое</item>
+        <item>Другой</item>
         <item>Создать свой ярлык</item>
     </string-array>
     <string-array name="phoneTypes">
@@ -620,64 +620,74 @@
         <item>10</item>
     </integer-array>
     <integer-array name="config_autoBrightnessLevels">
-        <item>17</item>
-        <item>26</item>
-        <item>41</item>
-        <item>64</item>
-        <item>102</item>
-        <item>161</item>
-        <item>255</item>
-        <item>404</item>
-        <item>641</item>
-        <item>1017</item>
-        <item>1614</item>
-        <item>2516</item>
-        <item>4065</item>
-        <item>6452</item>
+        <item>10</item>
+        <item>16</item>
+        <item>25</item>
+        <item>40</item>
+        <item>63</item>
+        <item>101</item>
+        <item>160</item>
+        <item>254</item>
+        <item>403</item>
+        <item>640</item>
+        <item>1016</item>
+        <item>2560</item>
+        <item>4064</item>
+        <item>6451</item>
+        <item>10240</item>
     </integer-array>
     <integer-array name="config_autoBrightnessLcdBacklightValues">
-        <item>5</item>
-        <item>10</item>
-        <item>12</item>
         <item>15</item>
         <item>20</item>
-        <item>25</item>
-        <item>30</item>
-        <item>37</item>
-        <item>48</item>
+        <item>27</item>
+        <item>38</item>
+        <item>49</item>
         <item>60</item>
-        <item>70</item>
-        <item>80</item>
+        <item>72</item>
+        <item>86</item>
+        <item>98</item>
         <item>128</item>
-        <item>190</item>
-        <item>230</item>
+        <item>160</item>
+        <item>180</item>
+        <item>200</item>
+        <item>220</item>
+        <item>235</item>
         <item>255</item>
     </integer-array>
     <integer-array name="config_autoBrightnessButtonBacklightValues">
-        <item>0</item>
-        <item>102</item>
+        <item>15</item>
+        <item>20</item>
+        <item>27</item>
+        <item>38</item>
+        <item>49</item>
+        <item>60</item>
+        <item>72</item>
+        <item>86</item>
+        <item>98</item>
+        <item>128</item>
+        <item>160</item>
         <item>180</item>
         <item>200</item>
-        <item>210</item>
-        <item>230</item>
+        <item>220</item>
+        <item>235</item>
         <item>255</item>
     </integer-array>
     <integer-array name="config_autoBrightnessKeyboardBacklightValues">
-        <item>255</item>
-        <item>255</item>
-        <item>255</item>
-        <item>255</item>
-        <item>255</item>
-        <item>255</item>
-        <item>255</item>
-        <item>255</item>
-        <item>255</item>
-        <item>255</item>
-        <item>255</item>
-        <item>255</item>
-        <item>255</item>
-        <item>255</item>
-        <item>255</item>
+        <item>15</item>
+        <item>20</item>
+        <item>27</item>
+        <item>38</item>
+        <item>49</item>
+        <item>60</item>
+        <item>72</item>
+        <item>86</item>
+        <item>98</item>
+        <item>128</item>
+        <item>160</item>
+        <item>180</item>
+        <item>200</item>
+        <item>220</item>
+        <item>235</item>
         <item>255</item>
     </integer-array>
     <array name="config_twoDigitNumberPattern" />
@@ -687,7 +697,7 @@
     <string-array name="imAddressTypes">
         <item>Домашний</item>
         <item>Рабочий</item>
-        <item>Другое</item>
+        <item>Другой</item>
         <item>Создать свой ярлык</item>
     </string-array>
     <array name="carrier_properties" />
