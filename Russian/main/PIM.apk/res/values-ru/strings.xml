@@ -1340,7 +1340,7 @@
     <string name="sms_backup_location">Место для резервных копий SMS</string>
     <string name="sms_send_count_limit">Отправить сообщение можно только выбрать один из 100 контактов</string>
     <string name="mms_lewa_easter_eggs">С Днем Рождения</string>
-    <string name="hint">Строка для ввода ответа...</string>
+    <string name="hint">Строка для ответа...</string>
     <string name="reply">Ответ</string>
     <string name="choosesms">Выбрать общее сообщение</string>
     <string name="alter_title">Полезные советы</string>
@@ -1454,4 +1454,8 @@ In four, the opening of free information service needs to send a message to the 
     <string name="login_lewa">Необходимо зайти в Lewa аккаунт</string>
     <string name="dialpad_empty_text">Список вызовов пуст</string>
     <string name="message_empty_text">Сообщения отсутствуют</string>
+    <string name="contact_delteing">Contacts delteing...</string>
+    <string name="gemini_sim_management_title">Управление SIM</string>
+    <string name="base_info_title">Базовая информация</string>
+    <string name="add_more_info">Добавить допл-ную информацию</string>
 </resources>
