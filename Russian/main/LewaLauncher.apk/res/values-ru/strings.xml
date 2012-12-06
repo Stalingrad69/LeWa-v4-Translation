@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!--Decoded by jBART (BurgerZ <az.burgerz@gmail.com)>--><resources>
+<resources>
     <string name="config_drawerDefaultTransitionEffect">Stack</string>
     <string name="config_workspaceDefaultTransitionEffect">Standard</string>
     <string name="application_name">Рабочий стол</string>
@@ -107,7 +107,7 @@
     <string name="popupWindow_hide">Скрытая программа</string>
     <string name="popupWindow_search">Поиск</string>
     <string name="group_live_folders">Папки</string>
-    <string name="message_cannot_add_desktop_screen">"Нельзя добавить больше экранов"</string>
+    <string name="message_cannot_add_desktop_screen">Нельзя добавить больше экранов</string>
     <string name="editmode_tip">Вы достигли минимального количества экранов и не можете удалить больше</string>
     <string name="title_dialog_xml">Настройки Рабочего стола</string>
     <string name="message_delete_desktop_screen">Удалить экран и его содержимое?</string>
@@ -127,7 +127,7 @@
     <string name="pref_summary_activity_format">Включение может уменьшить производительность</string>
     <string name="pref_title_othersetttings">Другие настройки</string>
     <string name="pref_title_action_updown">Жесты рабочего стола</string>
-    <string name="pref_summary_action_updown">На рачем столе проведите вверх для открытия меню или вниз для открытия уведомлений</string>
+    <string name="pref_summary_action_updown">На рабочем столе проведите вверх для открытия меню или вниз для открытия уведомлений</string>
     <string name="pref_title_scroll_speed">Скорость прокрутки</string>
     <string name="pref_summary_scroll_speed">Позволяет увеличить скорость прокрутки</string>
     <string name="pref_title_scrolling_vibrtor">Вибрация</string>
@@ -146,7 +146,7 @@
     <string name="pref_allapp_setting_loop_summary">Циклическая прокрутка по списку приложений</string>
     <string name="pref_allapp_setting_loopvibrator_summary">Вибрация при циклической прокрутке списка</string>
     <string name="pref_allapp_setting_alpha_summary">Полупрозрачный фон для списка приложений</string>
-    <string name="system_group_newgroup">Новая группа</string>
+    <string name="system_group_newgroup">Группа</string>
     <string name="system_groupname_system">Система</string>
     <string name="system_groupname_social">Социальные</string>
     <string name="system_groupname_game">Игры</string>
