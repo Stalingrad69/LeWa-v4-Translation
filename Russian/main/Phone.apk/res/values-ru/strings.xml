@@ -1040,4 +1040,6 @@
     <string name="noNeedToUpdate">Обновление не требуется</string>
     <string name="updateProgress">Обновление информационной библиотеки перехватчика, пожалуйста ожидайте</string>
     <string name="networkError">Ошибка сети，проверьте настройки сети</string>
+    <string name="piano_tone">Звук клавиатуры</string>
+    <string name="piano_tone_sum">Звуки пианино при наборе номера</string>
 </resources>

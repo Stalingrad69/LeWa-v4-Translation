@@ -23,8 +23,8 @@
         <item>Custom</item>
     </string-array>
     <string-array name="bg_choise">
-        <item>Капли</item>
         <item>Мечта</item>
+        <item>Капли</item>
         <item>Сумерки</item>
         <item>Янтарь</item>
     </string-array>

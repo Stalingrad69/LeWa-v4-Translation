@@ -65,10 +65,10 @@
     <string name="search_bar_hint_song">Поиск песни</string>
     <string name="playlist_songs">песни</string>
     <string name="playlist_deleted_message">Удалить список воспроизведения</string>
-    <string name="photoPickerNotFoundText">Нет фотографии доступных на телефоне.</string>
+    <string name="photoPickerNotFoundText">Нет фотографий, доступных на телефоне.</string>
     <string name="description_playlist_cover">Обложка списка воспроизведения</string>
     <string name="attachToPlaylist">Обложка списка воспроизведения</string>
-    <string name="use_photo_as_primary">Используйте этот фото</string>
+    <string name="use_photo_as_primary">Используйте это фото</string>
     <string name="changePicture">Сменить значок</string>
     <string name="removePicture">Удалить значок</string>
     <string name="title_dialog_xml">Удалить</string>
@@ -76,7 +76,7 @@
     <string name="settings">Настройки</string>
     <string name="search">Поиск</string>
     <string name="folder">Источник</string>
-    <string name="remove_done">>Удаление заевершено</string>
+    <string name="remove_done">>Удаление завершено</string>
     <string name="goto_start">Библиотека</string>
     <string name="choose_folder">Выберите папки с музыкой</string>
     <string name="select_folder">Выберите источник музыки</string>
@@ -104,7 +104,7 @@
     <string name="delete_genre_desc_nosdcard">Все песни в \"%s\" будут навсегда удалены из USB хранилища</string>
     <string name="setting_backlight_title">Всегда вкл.</string>
     <string name="setting_backlight_key">isbacklight</string>
-    <string name="setting_backlight_summary">Экран свитится пока песня играет</string>
+    <string name="setting_backlight_summary">Экран светится пока песня играет</string>
     <string name="setting_lewaid_title">LeWa ID</string>
     <string name="setting_lewaid_key">lewaidkey</string>
     <string name="setting_downimg_summary">Картинка артиста и альбома</string>
@@ -153,7 +153,7 @@
     <string name="sleep_start">Таймер сна</string>
     <string name="sleep_close">close sleep timer</string>
     <string name="sleep_tip">Пожалуйста, установите таймер для остановки (в мин)</string>
-    <string name="sleep_set_ok">воспроизведение остановитсячерез %1$d минут(с)</string>
+    <string name="sleep_set_ok">воспроизведение остановится через %1$d минут(с)</string>
     <string name="sleep_close_ok">Таймер сна остановлен</string>
     <string name="sleep_time_min">1</string>
     <string name="sleep_time_max">90</string>
@@ -197,7 +197,7 @@
 
 Продолжить?"</string>
     <string name="set_network">Настройка сети</string>
-    <string name="no_network_tip">нет подкючения, не возможно загрузить изображения</string>
+    <string name="no_network_tip">нет подкючения, невозможно загрузить изображения</string>
     <string name="getpicfinish" />
     <string name="getpicbreak">остановлен,</string>
     <string name="download_finish" formatted="false">%sdownload %s total images. %s Artist images, %s Album images.</string>
@@ -227,4 +227,40 @@
     <string name="albumInfo">Информация об альбоме</string>
     <string name="artist_detail">Информация об артисте</string>
     <string name="notDownInfo">Нет загруженой информации(*^◎^*)</string>
+    <string name="music_online">Музыка онлайн</string>
+    <string name="countless_songs">бесчисленные песни</string>
+    <string name="search_music">Поиск песни</string>
+    <string name="onlinedownload">Скачать</string>
+    <string name="more_content">More content is wants to see you(*^◎^*)</string>
+    <string name="online_pause">пауза</string>
+    <string name="online_newsongs_delivery">Новые песни</string>
+    <string name="ranklist">Рейтинг</string>
+    <string name="hotsinger">Популярные исполнители</string>
+    <string name="hotalbums">Выбранная тема</string>
+    <string name="just_fifty">Только сто(⊙_⊙)</string>
+    <string name="five_onetime">Можно только загрузить только пять(∩_∩)</string>
+    <string name="downloaded">имеется</string>
+    <string name="download_fail">Не удалось загрузить</string>
+    <string name="sd_spaceerror">space_error</string>
+    <string name="more_content_loading">Загрузить больше содержания</string>
+    <string name="just_fifity_artists">Только пятьдесят(∩_∩)</string>
+    <string name="songs_loaded">Загрузка песен завершена</string>
+    <string name="online_downloading">прогресс</string>
+    <string name="special_info">Тематическая информация</string>
+    <string name="nonetworking">Пожалуйста, проверьте сеть( T___T )</string>
+    <string name="not_in_wifi">"В настоящее время wifi не включен.
+ Уверены, что продолжить?"</string>
+    <string name="enter_online_music">запись онлайн музыки</string>
+    <string name="new_songs_rank">Новые песни рейтинга Baidu</string>
+    <string name="hot_songs_rank">Горячие песни рейтинга Baidu</string>
+    <string name="just_100_artists">Только сто(∩_∩)</string>
+    <string name="url_notfound">В песне некоректный ID</string>
+    <string name="network_not_connect">не подключен к сети</string>
+    <string name="set_firewall">Установить сетевой доступ</string>
+    <string name="network_limited">Огранечение сети</string>
+    <string name="networking_limited">Огранечение сети( T___T )</string>
+    <string name="search_fail">извините ваши песни не найдены~(@^_^@)~</string>
+    <string name="enter_keys">Введите исполнителя или название песни</string>
+    <string name="flow_hint">подсказка потока</string>
+    <string name="songs_download">Скачать песни</string>
 </resources>
