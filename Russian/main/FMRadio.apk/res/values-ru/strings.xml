@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!--Decoded by jBART (BurgerZ <az.burgerz@gmail.com)>-->
-<resources>
-    <string name="app_name">FM-станция</string>
+<!--Decoded by jBART (BurgerZ <az.burgerz@gmail.com)>--><resources>
+    <string name="app_name">FM Радио</string>
     <string name="favorite_manager">Список каналов</string>
     <string name="add_to_favorite">Добавить в избранное</string>
     <string name="add_to_favorite1">Добавить в настроенные каналы</string>
@@ -61,16 +60,16 @@
     <string name="dlg_save_recording_storage_warning">Недостаточно памяти! Сохранить текущую запись?</string>
     <string name="toast_save_success">Сохранено!</string>
     <string name="already_exists">Уже существует</string>
-    <string name="FMR_Freq_text">Freq(MHz)</string>
+    <string name="FMR_Freq_text">Частота(MHz)</string>
     <string name="FMR_Freq_tune">Мелодия</string>
     <string name="FMR_Antenna_text">Тип антенны</string>
     <string name="FMR_Antenna_short">Короткий</string>
     <string name="FMR_Antenna_long">Наушник</string>
     <string name="FMR_Status_text">Статус</string>
-    <string name="FMR_Force_Stereomono_text">Force Set:</string>
-    <string name="FMR_Status_Stereomono_text">Stereo/Mono:</string>
-    <string name="FMR_Stereomono_stereo">Stereo</string>
-    <string name="FMR_Stereomono_mono">Mono</string>
+    <string name="FMR_Force_Stereomono_text">Принудительная установка:</string>
+    <string name="FMR_Status_Stereomono_text">Стерео/Моно:</string>
+    <string name="FMR_Stereomono_stereo">Стерео</string>
+    <string name="FMR_Stereomono_mono">Моно</string>
     <string name="FMR_Status_Stereomono">Обнаружение...</string>
     <string name="FMR_Status_RSSI_text">RSSI(dBm):</string>
     <string name="FMR_Status_RSSI">обнаружение...</string>
@@ -81,7 +80,7 @@
     <string name="FMR_RDS_Goodblock">Обнаружение...</string>
     <string name="FMR_RDS_Badblock_text">Bad Blocks:</string>
     <string name="FMR_RDS_Badblock">Обнаружение...</string>
-    <string name="FMR_RDS_Ratio_text">Ratio:</string>
+    <string name="FMR_RDS_Ratio_text">Рейтинг:</string>
     <string name="FMR_RDS_Ratio">Обнаружение...</string>
     <string name="FMR_RDS_PS_text">PS:</string>
     <string name="FMR_RDS_PS">Никто.</string>
@@ -96,4 +95,11 @@
     <string name="FMR_Patch_Version">Никто.</string>
     <string name="FMR_DSP_Version_text">DSP Version</string>
     <string name="FMR_DSP_Version">Никто.</string>
+    <string name="insert_the_headset_prompt">"
+Вставьте наушники для прослушивания FM-радио.
+"</string>
+    <string name="headset_prompt">Подтверждение гарнитуры</string>
+    <string name="mhz">MHZ</string>
+    <string name="fm">FM</string>
+    <string name="favorite_title">Избранное</string>
 </resources>

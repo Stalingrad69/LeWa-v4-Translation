@@ -14,8 +14,9 @@
     <string name="accept">Использовать эту запись</string>
     <string name="discard">Отменить</string>
     <string name="button_ok">ОК</string>
-    <string name="timer_format" formatted="false">%02d:%02d</string>
-    <string name="audio_db_title_format">dd-MM-yyyy HH:mm:ss</string>
+    <string name="timer_format_with_hour" formatted="false">%02d:%02d:%02d</string>
+    <string name="timer_format_without_hour" formatted="false">%02d:%02d</string>
+    <string name="audio_db_title_format">yyyy-MM-dd HH:mm:ss</string>
     <string name="audio_db_artist_name">Ваши записи</string>
     <string name="audio_db_album_name">Аудиозаписи</string>
     <string name="audio_db_playlist_name">Мои записи</string>
@@ -45,4 +46,12 @@
     <string name="no_recording_file">(Нет файлов)</string>
     <string name="recording_file_list">Список файлов</string>
     <string name="recording_paused">Запись приостановлена</string>
+    <string name="record_title">Запись</string>
+    <string name="play_title">Воспроизведение</string>
+    <string name="time_zero">00:00</string>
+    <string name="delete_selected">Выбранные %s</string>
+    <string name="duration_timer_format_with_hour" formatted="false">%02dH%02dM%02dS</string>
+    <string name="duration_timer_format_without_hour" formatted="false">%02dM%02dS</string>
+    <string name="is_recording_can_not_use_play_function">Идет запись, вы не можете использовать функцию записи повторно.</string>
+    <string name="is_playing_can_not_use_record_function">Аудио файл воспроизводится, вы не можете использовать функцию записи.</string>
 </resources>
